@@ -1,0 +1,27 @@
+{
+    "name": "oihub/php.validation",
+    "description": "Validation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "maoxfjob@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "oihub/php.core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "oihub\\validation\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
